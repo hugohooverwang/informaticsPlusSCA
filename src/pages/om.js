@@ -1,13 +1,23 @@
 import React from "react"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-export default () => (
+export default ({ data }) => (
   <Layout>
-    <SEO title="om" />
-    <h1>om mig</h1>
-
-    <div></div>
+    <p>this is a test.</p>
+    <Img fixed={data.file.childImageSharp.fixed} />
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "images/natasha-spencer-_hH0dC6A-FM-unsplash.jpg" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
