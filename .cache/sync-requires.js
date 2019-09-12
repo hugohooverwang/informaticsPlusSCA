@@ -10,6 +10,7 @@ exports.components = {
   "component---src-pages-cidr-js": hot(preferDefault(require("/mnt/c/Users/RENQIN/Documents/wanghu/WebbAPPar/dataAnalysisSCA_gatz/src/pages/cidr.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/mnt/c/Users/RENQIN/Documents/wanghu/WebbAPPar/dataAnalysisSCA_gatz/src/pages/index.js"))),
   "component---src-pages-om-js": hot(preferDefault(require("/mnt/c/Users/RENQIN/Documents/wanghu/WebbAPPar/dataAnalysisSCA_gatz/src/pages/om.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/mnt/c/Users/RENQIN/Documents/wanghu/WebbAPPar/dataAnalysisSCA_gatz/src/pages/page-2.js")))
+  "component---src-pages-page-2-js": hot(preferDefault(require("/mnt/c/Users/RENQIN/Documents/wanghu/WebbAPPar/dataAnalysisSCA_gatz/src/pages/page-2.js"))),
+  "component---src-pages-dropclust-js": hot(preferDefault(require("/mnt/c/Users/RENQIN/Documents/wanghu/WebbAPPar/dataAnalysisSCA_gatz/src/pages/dropclust.js")))
 }
 
