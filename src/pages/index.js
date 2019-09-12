@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="hem" />
     <h1>Einzelzellanalyse</h1>
 
     <div style={{ maxWidth: `900px`, marginBottom: `1.45rem` }}>
